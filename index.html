@@ -8,11 +8,18 @@
 </head>
 <body>
     <ul>
-        <li>Vagrant</li>
+        <li class="hola" id="primero">Vagrant</li>
         <li>Docker</li>
         <li>Ansiber: ok es una prueba</li>
         <li>Integración continuas: Madurez y productividad en el desarrollo de software</li>
     </ul>
+
+    <script>
+        var hola = document.getElementsByClassName("hola");
+
+        hola[0].innerHTML = "No me toques, perra"
+
+    </script>
     
 </body>
 </html>
